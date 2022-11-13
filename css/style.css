@@ -37,7 +37,6 @@ body {
 
 .nav-item:hover {
     border-bottom: 1px solid var(--yellow);
-
 }
 
 .nav-item:active {
