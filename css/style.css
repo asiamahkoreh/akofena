@@ -108,11 +108,11 @@ a {
 }
 
 .product-card {
-    background: var(--gray);
     padding: 1rem;
 }
 
 .product-card img {
+    background: var(--gray);
     width: 80%;
 }
 
