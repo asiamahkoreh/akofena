@@ -7,7 +7,7 @@
     --yellow: yellow;
     --white-text: #fff;
     --dark: #000;
-    --big-h1: 3rem;
+    --big-h1: 2rem;
     --beige: beige;
 }
 
@@ -134,4 +134,18 @@ a {
 section {
     margin-top: 3rem;
 }
+
+.announcement-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--big-h1);
+    color: var(--white-text);
+    background: var(--dark);
+    height: 70vh;
+    text-transform: capitalize;
+}
+
+
 
