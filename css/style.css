@@ -32,7 +32,16 @@ body {
     justify-content: space-around;
     padding: 6px 10px;
     color: var(--gray);
+    transition: all;
+}
 
+.nav-item:hover {
+    border-bottom: 1px solid var(--yellow);
+
+}
+
+.nav-item:active {
+    border-bottom: 1px solid var(--yellow);
 }
 
 .logo img {
@@ -123,10 +132,7 @@ a {
     font-weight: bold;
 }
 
-.trend-1 {
-    background: url(./img/image1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+section {
+    margin-top: 3rem;
 }
 
