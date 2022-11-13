@@ -1,0 +1,94 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --gray: whitesmoke;
+    --light-dark: rgb(0, 0, 0, 0.9);
+    --yellow: yellow;
+    --white-text: #fff;
+    --dark: #000;
+    --big-h1: 3rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: var(--dark);
+}
+
+.nav-menu {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    justify-content: space-around;
+    padding: 6px 10px;
+}
+
+.nav-item {
+    color: var(--gray);
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--yellow);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    height: 80vh;
+    background: var(--gray);
+    color: var(--light-dark);
+    flex-wrap: wrap;
+}
+
+.hero-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    width: 800px;
+    font-size: 1.4rem;
+    
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.healthy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.healthy-h1 {
+    font-size: var(--big-h1);
+    margin-bottom: 0;
+}
