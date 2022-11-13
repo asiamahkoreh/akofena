@@ -31,10 +31,8 @@ body {
 .nav-item {
     justify-content: space-around;
     padding: 6px 10px;
-}
-
-.nav-item {
     color: var(--gray);
+
 }
 
 .logo img {
@@ -113,7 +111,7 @@ a {
 
 .product-card img {
     background: var(--gray);
-    width: 80%;
+    width: 100%;
 }
 
 .gender {
